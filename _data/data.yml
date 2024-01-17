@@ -129,29 +129,27 @@ experiences:
         location: Bangalore, India
         company: Royal Datamatics Pvt Ltd (BlueKaktus)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          - Developing and deploying backend components of a Vendor Managed Inventory (VMI) tool based on client requirements, 
+          proficiently troubleshooting functionality issues in new/existing features built using Flask, Redis, and MongoDB in a Linux environment.
+          - Optimized the sales rate computation algorithm of the VMI tool, decreasing processing time from hours to minutes. 
+          - Redesigned MongoDB 
+          database and implemented multiprocessing for 8x faster file creation in the forecasting module of the VMI tool.
+          - Designed and implemented a CV solution using Hugging Face Transformers and Tesseract OCR to automatically read and filter data in 
+          lengthy Garment Tech Packs of varying visual formats and present essential costing information of raw materials 
+          in a structured tabular form, reducing manual effort.
+          - Designed and deployed a CV solution using PyTorch and Flask to assign 7 descriptive tags to a garment from a single image while 
+          ensuring robust performance (0.82 F1 score) across varying image quality, human models, and poses.
+
       - role: Software Engineer Intern
         time: March 2022 - June 2022
         location: Remote
         company: Royal Datamatics Pvt Ltd (BlueKaktus)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          - Designed and deployed a robust reverse image search feature in an existing inventory system, enabling clients to search for similar 
+          garments in the database using images or by providing URLs to images.
+          - Worked on and maintained a costing engine that generates a probable component-wise cost breakdown of a hypothetical garment 
+          described by the user using natural language. Upgraded text filtration module with fuzzy algorithms to increase robustness to 
+          inflections and minor typos.
 
 publications:
     title: Publications
@@ -163,43 +161,42 @@ publications:
         authors: "<b>D’Souza, G.</b>, Siddalingaswamy, P.C. & Pandya, M.A. "
         conference: "Biomedical Engineering Letters (2024)"
         repo_link: "https://github.com/gavin-d26/AlterNet-K-A-Small-and-Compact-Model-for-the-Detection-of-Glaucoma"
+        paper_link: "assets/pdfs/s13534-023-00307-6.pdf"
 
       - title: "Localization of lung abnormalities on chest X-rays using self-supervised equivariant attention"
         link: https://link.springer.com/article/10.1007/s13534-022-00249-5
         authors: "<b>D’Souza, G.</b>, Reddy, N.V.S. & Manjunath, K.N."
         conference: "Biomedical Engineering Letters (2023)"
         repo_link: "https://github.com/gavin-d26/Localization-of-Lung-abnormalities-on-Chest-X-Rays-using-self-supervised-equivariant-attention"
+        paper_link: "assets/pdfs/D-Souza_et_al-2023-Biomedical_Engineering_Letters.pdf"
 
       - title: "Modified crop health monitoring and pesticide spraying system using NDVI and Semantic Segmentation: An AGROCOPTER based approach"
         link: https://ieeexplore.ieee.org/document/9551116
         authors: "A. Tendolkar, A. Choraria, M. M. Manohara Pai, S. Girisha, <b>G. Dsouza</b> and K. S. Adithya"
         conference: "2021 IEEE International Conference on Autonomous Systems (ICAS), Montreal, QC, Canada, 2021"
+        paper_link: "assets/pdfs/Modified_crop_health_monitoring_Semantic_Segmentation.pdf"
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: "Glaucoma Detector <em>| Python, PyTorch, Streamlit</em>"
+        time: "May 2022"
+        details: |
+          - Developed a web application to run multiple custom Deep learning models based on ResNet and ViT to detect the presence of Glaucoma 
+          in retinal fundus images and visualize model predictions with heat maps locally using a browser.
+        repo_link: https://github.com/gavin-d26/Glaucoma-Detection-App
+        
 
-      - title: DevStudio
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-        repo_link: https://ieeexplore.ieee.org/document/9551116
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Anime Face Generator <em>| Python, PyTorch</em>
+        time: "September 2022"
+        details: |
+          - Implemented a Deep Convolutional Generative Adversarial Network (DCGAN) model to generate faces of anime characters from random 
+          noise sampled from a standard normal distribution.
+        repo_link: https://github.com/gavin-d26/Anime-Generator
 
 certifications:
       title: Certifications
