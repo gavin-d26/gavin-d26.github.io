@@ -1,0 +1,18 @@
+{% assign programming_languages = site.data.data.sidebar.programming_languages %}
+{% if programming_languages %}
+<div class="programming-languages-container container-block">
+
+  <h2 class="container-block-title">
+    {{ programming_languages.title }}
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for programming_language in programming_languages.info %}
+    <li>
+      {{ programming_language.idiom }}
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

@@ -1,0 +1,267 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Gavin D'Souza
+    # tagline: Full Stack Developer
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: dsouzagavin26@gmail.com
+    # phone: 012 345 6789
+    # timezone: America/Cancun Timezone
+    # citizenship:
+    # website: blog.webjeda.com #do not add http://
+    linkedin: gavin-p-dsouza
+    # xing: alandoe
+    github: gavin-d26
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: "assets/resume/Gavin Dsouza CV.pdf"
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native/Bilingual
+
+        - idiom: Hindi
+          level: professional
+
+        - idiom: Konkani
+          level: Native/Bilingual
+
+    programming_languages:
+      title: Programming Languages
+      info:
+        - idiom: Python
+          level: Native/Bilingual
+
+        - idiom: C/C++
+          level: professional
+
+        - idiom: SQL
+          level: Native/Bilingual
+
+    tools:
+      title: Tools
+      info:
+        - idiom: PyTorch
+
+        - idiom: Tensorflow
+
+        - idiom: Pandas
+
+        - idiom: Scikit-learn
+
+        - idiom: Hugging Face Transformers
+
+        - idiom: OpenCV
+
+        - idiom: Flask
+
+        - idiom: Git
+
+        - idiom: Linux
+
+        - idiom: Docker
+
+
+    interests:
+      title: Skills
+      info:
+        - item: Backend Development
+          link:
+
+        - item: Data Wrangling
+          link:
+
+        - item: Regression
+          link:
+
+        - item: Classification
+          link:
+        
+        - item: Semantic Segmentation
+          link:
+
+        - item: Time Series Forecasting
+          link:
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+education:
+    title: Education
+    info:
+      - degree: B.Tech in Electronics and Instrumentation Engineering
+        university: Manipal Institute of Technology - MAHE
+        time: July 2018 - June 2022
+        details: |
+          ***CGPA 8.44/10*** 
+          <br>*Minor Specialization:* Computational Intelligence <br><br>
+          *Relevant courses:* Machine Learning, Soft Computing Techniques, Artificial Intelligence, Computer Vision, Data structures
+          using C++, Real-Time Operating Systems, Networking with TCP/IP, Introduction to Linux and Shell Scripting.
+
+experiences:
+    title: Experiences
+    info:
+      - role: AI Specialist
+        time: July 2022 - Present
+        location: Bangalore, India
+        company: Royal Datamatics Pvt Ltd (BlueKaktus)
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+          error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+            - Bullet point
+            - Bullet point
+      - role: Software Engineer Intern
+        time: March 2022 - June 2022
+        location: Remote
+        company: Royal Datamatics Pvt Ltd (BlueKaktus)
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
+
+publications:
+    title: Publications
+    intro: 
+
+    papers:
+      - title: "AlterNet-K: a small and compact model for the detection of glaucoma"
+        link: https://link.springer.com/article/10.1007/s13534-023-00307-6
+        authors: "<b>D’Souza, G.</b>, Siddalingaswamy, P.C. & Pandya, M.A. "
+        conference: "Biomedical Engineering Letters (2024)"
+        repo_link: "https://github.com/gavin-d26/AlterNet-K-A-Small-and-Compact-Model-for-the-Detection-of-Glaucoma"
+
+      - title: "Localization of lung abnormalities on chest X-rays using self-supervised equivariant attention"
+        link: https://link.springer.com/article/10.1007/s13534-022-00249-5
+        authors: "<b>D’Souza, G.</b>, Reddy, N.V.S. & Manjunath, K.N."
+        conference: "Biomedical Engineering Letters (2023)"
+        repo_link: "https://github.com/gavin-d26/Localization-of-Lung-abnormalities-on-Chest-X-Rays-using-self-supervised-equivariant-attention"
+
+      - title: "Modified crop health monitoring and pesticide spraying system using NDVI and Semantic Segmentation: An AGROCOPTER based approach"
+        link: https://ieeexplore.ieee.org/document/9551116
+        authors: "A. Tendolkar, A. Choraria, M. M. Manohara Pai, S. Girisha, <b>G. Dsouza</b> and K. S. Adithya"
+        conference: "2021 IEEE International Conference on Autonomous Systems (ICAS), Montreal, QC, Canada, 2021"
+
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+        repo_link: https://ieeexplore.ieee.org/document/9551116
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+certifications:
+      title: Certifications
+      list:
+        - name: CV Builder
+          start: 2020
+          end: 2021
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.google.com
+          credentialname: Google
+          details: |
+            Details about cert. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh.
+            Aenean fermentum, felis vulputate suscipit accumsan,
+            sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            Praesent venenatis erat non augue suscipit consectetur.
+
+            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+            justo diam viverra velit, sed rhoncus leo leo eu justo.
+            Suspendisse placerat risus ante, sed porta nisi blandit at.
+        - name: Git learning
+          start: 2019
+          end:
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.github.com
+          credentialname: Github
+          details: |
+            Older certification. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh.
+            Aenean fermentum, felis vulputate suscipit accumsan,
+            sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            Praesent venenatis erat non augue suscipit consectetur.
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
