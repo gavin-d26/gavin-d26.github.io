@@ -46,13 +46,16 @@ sidebar:
       title: Programming Languages
       info:
         - idiom: Python
-          level: Native/Bilingual
+          # level: Native/Bilingual
 
-        - idiom: C/C++
-          level: professional
+        - idiom: C
+          # level: professional
+        
+        - idiom: C++
+          # level: professional
 
         - idiom: SQL
-          level: Native/Bilingual
+          # level: Native/Bilingual
 
     tools:
       title: Tools
@@ -101,14 +104,14 @@ sidebar:
 
 
 career-profile:
-    title: Career Profile
+    title: About
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I'm an AI Specialist with experience in the fashion industry and supply chain. My work mainly involves developing and 
+      implementing ML solutions for problems involving computer vision, language processing, and time series forecasting. 
+      I am also skilled in programming, debugging, and optimizing server-side software systems. I have prior research experience 
+      in Deep Learning, where I developed attention-based models for medical image processing. I'm passionate about using 
+      my skills in ML to address real-world problems.
+
 education:
     title: Education
     info:
@@ -159,14 +162,14 @@ publications:
       - title: "AlterNet-K: a small and compact model for the detection of glaucoma"
         link: https://link.springer.com/article/10.1007/s13534-023-00307-6
         authors: "<b>D’Souza, G.</b>, Siddalingaswamy, P.C. & Pandya, M.A. "
-        conference: "Biomedical Engineering Letters (2024)"
+        conference: "Biomedical Engineering Letters (2023)"
         repo_link: "https://github.com/gavin-d26/AlterNet-K-A-Small-and-Compact-Model-for-the-Detection-of-Glaucoma"
         paper_link: "assets/pdfs/s13534-023-00307-6.pdf"
 
       - title: "Localization of lung abnormalities on chest X-rays using self-supervised equivariant attention"
         link: https://link.springer.com/article/10.1007/s13534-022-00249-5
         authors: "<b>D’Souza, G.</b>, Reddy, N.V.S. & Manjunath, K.N."
-        conference: "Biomedical Engineering Letters (2023)"
+        conference: "Biomedical Engineering Letters (2022)"
         repo_link: "https://github.com/gavin-d26/Localization-of-Lung-abnormalities-on-Chest-X-Rays-using-self-supervised-equivariant-attention"
         paper_link: "assets/pdfs/D-Souza_et_al-2023-Biomedical_Engineering_Letters.pdf"
 
@@ -205,7 +208,7 @@ certifications:
           link: "https://www.coursera.org/account/accomplishments/specialization/NN6QMR7N2Z58?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"
         - title: DeepLearning.AI TensorFlow Developer Specialization
           link: "https://coursera.org/share/d7fb6361e98844a673a189c57c9b0928"
-        - title: Mathematics for Machine Learning
+        - title: Mathematics for Machine Learning Specialization
           link: "https://coursera.org/share/29733d084616ef3717aa757c2c064fa9"
 
 oss:

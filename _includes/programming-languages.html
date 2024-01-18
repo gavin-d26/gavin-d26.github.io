@@ -10,6 +10,9 @@
     {% for programming_language in programming_languages.info %}
     <li>
       {{ programming_language.idiom }}
+      {% if programming_language.level %}
+      <span class="lang-desc">({{ programming_language.level }})</span>
+      {% endif %}
     </li>
     {% endfor %}
   </ul>
