@@ -28,7 +28,7 @@ sidebar:
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    # pdf: "assets/resume/Gavin Dsouza CV.pdf"
+    pdf: "assets/resume/GAVIN DSOUZA CV.pdf"
 
     languages:
       title: Languages
