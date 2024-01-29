@@ -84,8 +84,6 @@ sidebar:
     interests:
       title: Skills
       info:
-        - item: Backend Development
-          link:
 
         - item: Data Wrangling
           link:
@@ -100,6 +98,9 @@ sidebar:
           link:
 
         - item: Time Series Forecasting
+          link:
+        
+        - item: Backend Development
           link:
 
 
@@ -195,11 +196,31 @@ projects:
         
 
       - title: Anime Face Generator <em>| Python, PyTorch</em>
-        time: "September 2022"
+        time: "September 2021"
         details: |
-          - Implemented a Deep Convolutional Generative Adversarial Network (DCGAN) model to generate faces of anime characters from random 
+          - Trained a Deep Convolutional Generative Adversarial Network (DCGAN) model to generate faces of anime characters from random 
           noise sampled from a standard normal distribution.
         repo_link: https://github.com/gavin-d26/Anime-Generator
+
+      - title: Crop Health Monitoring System
+        time: "February 2021"
+        details: |
+          -  Built an autonomous hexacopter drone to monitor crop health using visual data and take certain actions.
+
+extracurs:
+    title: Leadership / Extracurricular
+    # intro: >
+    #   You can list your side projects in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: "Management Committee Member, Astronomy Club Manipal"
+        time: "2019"
+        details: |
+          - Organized an Astro Exhibition, facilitated a program, and taught juniors to present scenarios in a simulator.
+          - Organized a local beach cleanliness drive, coordinated with authorities, mobilized volunteers, and managed logistics for 
+          the event's success.
+
 
 certifications:
       title: Certifications

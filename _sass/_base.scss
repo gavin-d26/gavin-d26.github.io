@@ -249,7 +249,7 @@ p {
     margin-bottom: 10px;
     color: $text-grey;
   }
-
+  .extracur-title,
   .project-title {
     font-size: 18px;
     font-weight: 400;
@@ -257,6 +257,7 @@ p {
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
+  .extracurs-section
   .projects-section {
     .intro {
       margin-bottom: 30px;
