@@ -9,17 +9,16 @@ sidebar:
 
     # Profile information
     name: Gavin D'Souza
-    # tagline: Full Stack Developer
+    tagline: NLP Researcher & ML Enthusiast
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: dsouzagavin26@gmail.com
-    # phone: 012 345 6789
-    # timezone: America/Cancun Timezone
-    # citizenship:
-    # website: blog.webjeda.com #do not add http://
+    email: gpdsouza@ucsc.edu
+    phone: +1 (669) 340-8146
+    timezone: America/Los_Angeles (PST)
+    # citizenship: Indian
+    website: gavin-d26.github.io #do not add http://
     linkedin: gavin-p-dsouza
-    # xing: alandoe
     github: gavin-d26
     # telegram: # add your nickname without '@' sign
     # gitlab:
@@ -37,7 +36,7 @@ sidebar:
           level: Native/Bilingual
 
         - idiom: Hindi
-          level: professional
+          level: Professional
 
         - idiom: Konkani
           level: Native/Bilingual
@@ -61,115 +60,98 @@ sidebar:
       title: Tools
       info:
         - idiom: PyTorch
-
-        - idiom: Tensorflow
-
-        - idiom: Pandas
-
-        - idiom: Scikit-learn
-
+        - idiom: TensorFlow
         - idiom: Hugging Face Transformers
-
+        - idiom: spaCy
+        - idiom: NLTK
+        - idiom: Pandas
+        - idiom: Scikit-learn
         - idiom: OpenCV
-
         - idiom: Flask
-
         - idiom: Git
-
         - idiom: Linux
-
         - idiom: Docker
-
+        - idiom: Google Colab
+        - idiom: VS Code
+        - idiom: AWS
+        - idiom: MLFlow
+        - idiom: W&B
+        - idiom: Optuna
+        - idiom: Streamlit
 
     interests:
       title: Skills
       info:
-
-        - item: Data Wrangling
-          link:
-
-        - item: Regression
-          link:
-
-        - item: Classification
-          link:
-        
-        - item: Semantic Segmentation
-          link:
-
+        - item: Machine Learning & Deep Learning
+        - item: Natural Language Processing
+        - item: Computer Vision
+        - item: Data Wrangling & Preprocessing
+        - item: Regression & Classification
         - item: Time Series Forecasting
-          link:
-        
         - item: Backend Development
-          link:
-
+        - item: Model Optimization & Pruning
+        - item: Web App Development
+        - item: BI Tools & Data Reporting
 
 career-profile:
     title: About
     summary: |
-      I'm an AI Specialist with experience in the fashion industry and supply chain. My work mainly involves developing and 
-      implementing ML solutions for problems involving computer vision, language processing, and time series forecasting. 
-      I am also skilled in programming, debugging, and optimizing server-side software systems. I have prior research experience 
-      in Deep Learning, where I developed attention-based models for medical image processing. I'm passionate about using 
-      my skills in ML to address real-world problems.
+      I'm currently pursuing my MS in Natural Language Processing at UC Santa Cruz. Over the years, I've developed expertise in NLP, computer vision, and predictive modeling, applying these skills to create intelligent systems for document automation and time series forecasting.
+      
+      In my previous role as an ML Engineer, I worked on a variety of projects that involved automating document data extraction using OCR, creating efficient image search systems, and developing accurate forecasting models. My interest lies in advancing intelligent question-answering systems, improving information retrieval, and creating personalized recommendation engines.
+      
+      During my undergraduate years, I had the opportunity to publish research on deep learning models applied to healthcare. Today, I'm excited to develop language-powered tools that make technology more intuitive and accessible to everyone.
 
 education:
     title: Education
     info:
+      - degree: Master of Science in Natural Language Processing
+        university: University of California Santa Cruz - Santa Clara, CA
+        time: Sep 2024 - Mar 2026
+        details: |
+          Focus on Deep Learning, Information Retrieval Systems, and Natural Language Understanding.
+
       - degree: B.Tech in Electronics and Instrumentation Engineering
         university: Manipal Institute of Technology - MAHE
         time: July 2018 - June 2022
         details: |
-          ***CGPA 8.44/10*** 
-          <br>*Minor Specialization:* Computational Intelligence <br><br>
-          *Relevant courses:* Machine Learning, Soft Computing Techniques, Artificial Intelligence, Computer Vision, Data structures
-          using C++, Real-Time Operating Systems, Networking with TCP/IP, Introduction to Linux and Shell Scripting.
+          *Minor Specialization:* Computational Intelligence <br><br>
+          *Relevant courses:* Machine Learning, Soft Computing Techniques, Artificial Intelligence, Computer Vision, Data Structures using C++, Real-Time Operating Systems, Networking with TCP/IP, Introduction to Linux and Shell Scripting.
 
 experiences:
     title: Experiences
     info:
-      - role: AI Specialist
-        time: July 2022 - Present
-        location: Bangalore, India
+      - role: ML Engineer
+        time: July 2022 - Apr 2024
+        location: Bengaluru, India
         company: Royal Datamatics Pvt Ltd (BlueKaktus)
         details: |
-          - Developing and deploying backend components of a Vendor Managed Inventory (VMI) tool based on client requirements, 
-          proficiently troubleshooting functionality issues in new/existing features built using Flask, Redis, and MongoDB in a Linux environment.
-          - Optimized the sales rate computation algorithm of the VMI tool, decreasing processing time from hours to minutes. 
-          - Redesigned MongoDB 
-          database and implemented multiprocessing for 8x faster file creation in the forecasting module of the VMI tool.
-          - Designed and implemented a CV solution using Hugging Face Transformers and Tesseract OCR to automatically read and filter data in 
-          lengthy Garment Tech Packs of varying visual formats and present essential costing information of raw materials 
-          in a structured tabular form, reducing manual effort.
-          - Designed and deployed a CV solution using PyTorch and Flask to assign 7 descriptive tags to a garment from a single image while 
-          ensuring robust performance (0.82 F1 score) across varying image quality, human models, and poses.
+          - Implemented an OCR solution to automate the extraction of key product data from Garment Tech Packs using Tesseract and Hugging Face Transformers.
+          - Built a multi-task image classification dataset of 50,000+ fashion products with over 10 tags by scraping retail sites using Beautiful Soup, leading to the company’s first automated product tagger.
+          - Enhanced the VMI tool's Sales Rate computation algorithm using parallel processing, achieving a 7x speedup in processing time.
+          - Developed a data reporting system integrated with BI tools, enabling clients to analyze and visualize sales forecasts in real-time, significantly improving decision-making efficiency.
 
-      - role: Software Engineer Intern
+      - role: Software Engineering Intern
         time: March 2022 - June 2022
         location: Remote
         company: Royal Datamatics Pvt Ltd (BlueKaktus)
         details: |
-          - Designed and deployed a robust reverse image search feature in an existing inventory system, enabling clients to search for similar 
-          garments in the database using images or by providing URLs to images.
-          - Worked on and maintained a costing engine that generates a probable component-wise cost breakdown of a hypothetical garment 
-          described by the user using natural language. Upgraded text filtration module with fuzzy algorithms to increase robustness to 
-          inflections and minor typos.
+          - Built a dense retrieval image search feature using a deep learning classifier and KNN, allowing clients to find similar products by image.
+          - Developed a TensorFlow/Scikit-Learn model to estimate product manufacturing costs based on the component list, achieving over 92% accuracy.
 
 publications:
     title: Publications
-    intro: 
-
     papers:
       - title: "AlterNet-K: a small and compact model for the detection of glaucoma"
         link: https://link.springer.com/article/10.1007/s13534-023-00307-6
-        authors: "<b>D’Souza, G.</b>, Siddalingaswamy, P.C. & Pandya, M.A. "
+        authors: "<b>Dsouza, G.</b>, Siddalingaswamy, P.C. & Pandya, M.A."
         conference: "Biomedical Engineering Letters (2023)"
         repo_link: "https://github.com/gavin-d26/AlterNet-K-A-Small-and-Compact-Model-for-the-Detection-of-Glaucoma"
         paper_link: "assets/pdfs/s13534-023-00307-6.pdf"
 
       - title: "Localization of lung abnormalities on chest X-rays using self-supervised equivariant attention"
         link: https://link.springer.com/article/10.1007/s13534-022-00249-5
-        authors: "<b>D’Souza, G.</b>, Reddy, N.V.S. & Manjunath, K.N."
+        authors: "<b>Dsouza, G.</b>, Reddy, N.V.S. & Manjunath, K.N."
         conference: "Biomedical Engineering Letters (2022)"
         repo_link: "https://github.com/gavin-d26/Localization-of-Lung-abnormalities-on-Chest-X-Rays-using-self-supervised-equivariant-attention"
         paper_link: "assets/pdfs/D-Souza_et_al-2023-Biomedical_Engineering_Letters.pdf"
@@ -182,49 +164,33 @@ publications:
 
 projects:
     title: Projects
-    # intro: >
-    #   You can list your side projects in this
-    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: "Glaucoma Detector <em>| Python, PyTorch, Streamlit</em>"
         time: "May 2022"
         details: |
-          - Developed a web application to run multiple custom Deep learning models based on ResNet and ViT to detect the presence of Glaucoma 
-          in retinal fundus images and visualize model predictions with heat maps locally using a browser.
+          - Leveraged ResNet and Vision Transformer (ViT) architectures to analyze retinal images, enabling glaucoma detection.
+          - Developed a Streamlit-based interface for users to upload and process images through deep learning models, with real-time visualization of model predictions using heatmaps.
         repo_link: https://github.com/gavin-d26/Glaucoma-Detection-App
         
-
-      - title: Anime Face Generator <em>| Python, PyTorch</em>
+      - title: "Anime Face Generator <em>| Python, PyTorch</em>"
         time: "September 2021"
         details: |
-          - Trained a Deep Convolutional Generative Adversarial Network (DCGAN) model to generate faces of anime characters from random 
-          noise sampled from a standard normal distribution.
+          - Developed a GAN-based model to generate unique anime characters, gaining hands-on experience with GAN architectures.
+          - Leveraged a CNN to train on a diverse anime dataset, exploring the model's capacity to learn complex visual features.
         repo_link: https://github.com/gavin-d26/Anime-Generator
 
-      - title: Crop Health Monitoring System
-        time: "February 2021"
-        details: |
-          -  Built an autonomous hexacopter drone to monitor crop health using visual data and spray pesticides.
 
 extracurs:
     title: Leadership / Extracurricular
-    # intro: >
-    #   You can list your side projects in this
-    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
       - title: "Management Committee Member, Astronomy Club Manipal"
         time: "2019"
         details: |
-          - Organized an Astro Exhibition, facilitated a program, and taught juniors to present scenarios in a simulator.
-          - Organized a local beach cleanliness drive, coordinated with authorities, mobilized volunteers, and managed logistics for 
-          the event's success.
-
+          - Organized an Astro Exhibition and mentored students in using astronomy simulators. Coordinated a beach cleanliness drive, mobilizing volunteers and ensuring effective logistics management.
 
 certifications:
-      title: Certifications
-      list:
+    title: Certifications
+    list:
         - title: Deep Learning Specialization
           link: "https://www.coursera.org/account/accomplishments/specialization/NN6QMR7N2Z58?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n"
         - title: DeepLearning.AI TensorFlow Developer Specialization
@@ -232,26 +198,17 @@ certifications:
         - title: Mathematics for Machine Learning Specialization
           link: "https://coursera.org/share/29733d084616ef3717aa757c2c064fa9"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#     title: OSS Contributions
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-
-
-# footer: >
-#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps."
