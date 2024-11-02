@@ -128,7 +128,7 @@ experiences:
         details: |
           - Implemented an OCR solution to automate the extraction of key product data from Garment Tech Packs using Tesseract and Hugging Face Transformers.
           - Built a multi-task image classification dataset of 50,000+ fashion products with over 10 tags by scraping retail sites using Beautiful Soup, leading to the company’s first automated product tagger.
-          - Enhanced the VMI tool's Sales Rate computation algorithm using parallel processing, achieving a 7x speedup in processing time.
+          - Enhanced the VMI tool's Sales Rate computation algorithm using parallel processing and database optimization, achieving a 7x speedup in processing time.
           - Developed a data reporting system integrated with BI tools, enabling clients to analyze and visualize sales forecasts in real-time, significantly improving decision-making efficiency.
 
       - role: Software Engineering Intern
@@ -168,15 +168,18 @@ projects:
       - title: "Glaucoma Detector <em>| Python, PyTorch, Streamlit</em>"
         time: "May 2022"
         details: |
-          - Leveraged ResNet and Vision Transformer (ViT) architectures to analyze retinal images, enabling glaucoma detection.
-          - Developed a Streamlit-based interface for users to upload and process images through deep learning models, with real-time visualization of model predictions using heatmaps.
+          – Leveraged ResNet and Vision Transformer (ViT) architectures to analyze retinal images, enabling Glaucoma detection.
+          – Optimized model for real-time inference, enabling fast browser interaction suitable for clinical use.
+          – Developed a Streamlit-based interface for users to upload and process images through deep learning models.
+          – Generated Heatmaps to highlight retinal regions contributing most to predictions, supporting real-time inference with localized browser interaction.
         repo_link: https://github.com/gavin-d26/Glaucoma-Detection-App
         
       - title: "Anime Face Generator <em>| Python, PyTorch</em>"
         time: "September 2021"
         details: |
-          - Developed a GAN-based model to generate unique anime characters, gaining hands-on experience with GAN architectures.
-          - Leveraged a CNN to train on a diverse anime dataset, exploring the model's capacity to learn complex visual features.
+          – Developed a Generative Adversarial Network (GAN) model to generate unique anime character faces, gaining hands-on experience with GAN architectures.
+          – Leveraged a CNN to train on a diverse anime dataset, exploring the model’s capacity to learn complex visual features.
+          – Implemented a general-purpose trainer to efficiently manage the GAN’s training process, incorporating features like automated logging, checkpointing, and configurable Hyperparameters.
         repo_link: https://github.com/gavin-d26/Anime-Generator
 
 
