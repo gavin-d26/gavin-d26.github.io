@@ -168,18 +168,21 @@ projects:
       - title: "Glaucoma Detector <em>| Python, PyTorch, Streamlit</em>"
         time: "May 2022"
         details: |
-          – Leveraged ResNet and Vision Transformer (ViT) architectures to analyze retinal images, enabling Glaucoma detection.
-          – Optimized model for real-time inference, enabling fast browser interaction suitable for clinical use.
-          – Developed a Streamlit-based interface for users to upload and process images through deep learning models.
-          – Generated Heatmaps to highlight retinal regions contributing most to predictions, supporting real-time inference with localized browser interaction.
+            - Leveraged ResNet and Vision Transformer (ViT) architectures to analyze retinal images, enabling Glaucoma detection.
+
+            - Optimized model for real-time inference, enabling fast browser interaction suitable for clinical use.
+
+            - Developed a Streamlit-based interface for users to upload and process images through deep learning models.
+                
+            - Generated Heatmaps to highlight retinal regions contributing most to predictions, supporting real-time inference with localized browser interaction.
         repo_link: https://github.com/gavin-d26/Glaucoma-Detection-App
         
       - title: "Anime Face Generator <em>| Python, PyTorch</em>"
         time: "September 2021"
         details: |
-          – Developed a Generative Adversarial Network (GAN) model to generate unique anime character faces, gaining hands-on experience with GAN architectures.
-          – Leveraged a CNN to train on a diverse anime dataset, exploring the model’s capacity to learn complex visual features.
-          – Implemented a general-purpose trainer to efficiently manage the GAN’s training process, incorporating features like automated logging, checkpointing, and configurable Hyperparameters.
+            - Developed a Generative Adversarial Network (GAN) model to generate unique anime character faces, gaining hands-on experience with GAN architectures.
+            - Leveraged a CNN to train on a diverse anime dataset, exploring the model’s capacity to learn complex visual features.
+            - Implemented a general-purpose trainer to efficiently manage the GAN’s training process, incorporating features like automated logging, checkpointing, and configurable Hyperparameters.
         repo_link: https://github.com/gavin-d26/Anime-Generator
 
 
